@@ -70,22 +70,22 @@ const Resume = (props) => {
 	const projectsDetails = [
 		{
 			title: "Personal Portfolio Website",
-			duration: { fromDate: "April 2022", toDate: "May 2022" },
+			duration: {  },
 			description:
 				"A Personal Portfolio website to showcase all my details and projects at one place.",
 			subHeading: "Technologies Used: React JS, Bootstrap",
 		},
 		{
 			title: "OneStopAgro",
-			duration: { fromDate: "February 2022", toDate: "February 2022" },
+			duration: {  },
 			description:
 				"Project build for Hack Frost NL to provide complete solution from early disease detection in crop to marketplace to sell the product ",
 			subHeading:
-				"Python, Tensorflow, Keras, Scikit-learn, JS, HTML, CSS, Bootstrap ",
+				"Python, Tensorflow, Keras, Scikit-learn, JavaScript, HTML, CSS, Bootstrap ",
 		},
 		{
 			title: "S.B. Telecom webStore",
-			duration: { fromDate: "February 2022", toDate: " April 2022" },
+			duration: { },
 			description:
 				"An eCommerce application designed to sell products online wth payment system integration",
 			subHeading:
@@ -93,7 +93,7 @@ const Resume = (props) => {
 		},
 		{
 			title: "The Game of Focus",
-			duration: { fromDate: "September 2021", toDate: " December 2021" },
+			duration: { },
 			description:
 				"Four player board game developed using java swing, serialization module",
 			subHeading: "Technologies Used: Java",
