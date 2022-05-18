@@ -17,9 +17,6 @@ export default function Profile(props) {
 				<div className="profile-details">
 					<div className="colz">
 						<div className="colz-icon">
-							<a href="https://www.facebook.com/profile.php?id=100007081242171">
-								<i className="fa fa-facebook-square"></i>
-							</a>
 							<a href="https://www.linkedin.com/in/harsh-sharma-7b26a1196/">
 								<i className="fa fa-linkedin-square "></i>
 							</a>
