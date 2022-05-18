@@ -67,6 +67,9 @@ export const ContactMe = (props) => {
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>{" "}
+          <a href="https://www.facebook.com/profile.php?id=100007081242171">
+							<i className="fa fa-facebook-square"></i>
+						</a>
 						<a href="https://www.linkedin.com/in/harsh-sharma-7b26a1196/">
 							<i className="fa fa-linkedin-square "></i>
 						</a>
