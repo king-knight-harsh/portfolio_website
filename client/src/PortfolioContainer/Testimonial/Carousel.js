@@ -18,6 +18,7 @@ import portfolioImage from "./images/portfolioImage.svg";
 import sbTelecomWebstore from "./images/sb_telecom_webstore.svg";
 import gameOfFocus from "./images/game_of_focus.svg";
 import oneStopAgro from "./images/OneStopAgro.svg";
+import mentNL from "./images/ment-nl.svg";
 
 export default function Testimonial(props) {
 	let fadeInScreenHandler = (screen) => {
@@ -103,18 +104,14 @@ export default function Testimonial(props) {
 						</div>{" "}
 					</div>
 					<div class="item">
-						<div className="card" >
+						<div className="card">
 							<MDBCard
 								style={{
 									width: "22rem",
 									height: "32rem",
 								}}
 							>
-								<MDBCardImage
-									src={oneStopAgro}
-									position="top"
-									alt="..."
-								/>
+								<MDBCardImage src={oneStopAgro} position="top" alt="..." />
 								<MDBCardBody
 									style={{
 										textAlign: "center",
@@ -141,6 +138,57 @@ export default function Testimonial(props) {
 											background: "#ff5823",
 										}}
 										href="https://github.com/king-knight-harsh/OneStopAgro"
+									>
+										{" "}
+										View{" "}
+									</MDBBtn>{" "}
+								</MDBCardBody>{" "}
+							</MDBCard>{" "}
+						</div>{" "}
+					</div>
+					<div className="item">
+						<div className="card">
+							<MDBCard
+								style={{
+									width: "22rem",
+									height: "32rem",
+								}}
+							>
+								<MDBCardImage
+									style={{
+										width: "22rem",
+										height: "12rem",
+										backgroundSize: "cover",
+									}}
+									src={mentNL}
+									position="top"
+									alt="..."
+								/>
+								<MDBCardBody
+									style={{
+										textAlign: "center",
+									}}
+								>
+									<MDBCardTitle
+										style={{
+											fontWeight: "bold",
+											fontSize: "25px",
+											textAlign: "center",
+										}}
+									>
+										{" "}
+										Ment-NL Website{" "}
+									</MDBCardTitle>{" "}
+									<MDBCardText>
+										TechNL FWD Hackathon project to help mitigate the problem of
+										tech-sector employment shortage by providing mentorship and
+										open source project contribution platform for new developers{" "}
+									</MDBCardText>{" "}
+									<MDBBtn
+										style={{
+											background: "#ff5823",
+										}}
+										href="http://sharmaharsh.me/ment-nl/"
 									>
 										{" "}
 										View{" "}
@@ -204,11 +252,7 @@ export default function Testimonial(props) {
 									height: "32rem",
 								}}
 							>
-								<MDBCardImage
-									src={gameOfFocus}
-									position="top"
-									alt="..."
-								/>
+								<MDBCardImage src={gameOfFocus} position="top" alt="..." />
 								<MDBCardBody
 									style={{
 										textAlign: "center",

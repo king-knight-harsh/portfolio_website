@@ -120,6 +120,21 @@ const Resume = (props) => {
 		<div className="resume-screen-container" key="work-experience">
 			<div className="experience-container">
 				<ResumeHeading
+					heading={"Cadence Design Systems"}
+					subHeading={"SOFTWARE DEVELOPER"}
+					fromDate={"June 2022"}
+					toDate={"Present"}
+				/>
+				<div className="experience-description">
+					<span className="resume-description-text">
+						Currently working as software developer with inspectAR team for Cadence Design System
+						lab.
+					</span>
+				</div>
+				
+			</div>
+			<div className="experience-container">
+				<ResumeHeading
 					heading={"Data and Image analysis Lab, Memorial University"}
 					subHeading={"FULL STACK DEVELOPER"}
 					fromDate={"January 2022"}
@@ -131,24 +146,7 @@ const Resume = (props) => {
 						lab.
 					</span>
 				</div>
-				<div className="experience-description">
-					<span className="resume-description-text">
-						- Deployed the Django web app with Postgres, Nginx, and Gunicorn on
-						Ubuntu server{" "}
-					</span>
-					<br />
-					<span className="resume-description-text">
-						- Collaborated with people from all around the world for developing
-						web-enabled manual labelling platform to support AI-based automated
-						image analysis pipeline development.
-					</span>
-					<br />
-					<span className="resume-description-text">
-						- Increased the code reusability and reorganized the code in the
-						industrial standard MVC style format
-					</span>
-					<br />
-				</div>
+				
 			</div>
 		</div>,
 
