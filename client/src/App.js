@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.min.css";
 import PortfolioContainer from "./PortfolioContainer/PortfolioContainer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

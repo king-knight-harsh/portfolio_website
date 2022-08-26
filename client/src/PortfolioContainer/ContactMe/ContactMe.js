@@ -6,7 +6,7 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import Footer from "../../PortfolioContainer/Footer/Footer";
-import "./ContactMe.css";
+import "./ContactMe.min.css";
 
 export const ContactMe = (props) => {
 	let fadeInScreenHandler = (screen) => {

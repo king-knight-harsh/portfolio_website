@@ -10,7 +10,7 @@ import {
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import "./Carousel.css";
+import "./Carousel.min.css";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/lib/styles.css";
 import "react-owl-carousel2/src/owl.theme.default.css";

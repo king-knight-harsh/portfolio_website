@@ -6,7 +6,7 @@ import {
 import ScrollService from "../../../utilities/ScrollService";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./Header.css";
+import "./Header.min.css";
 
 export default function Header() {
 	const [selectedScreen, setSelectedScreen] = useState(0);

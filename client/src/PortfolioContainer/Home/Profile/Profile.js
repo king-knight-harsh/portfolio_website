@@ -2,7 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import ScrollService from "../../../utilities/ScrollService";
 import Animations from "../../../utilities/Animations";
-import "./Profile.css";
+import "./Profile.min.css";
 
 export default function Profile(props) {
 	let fadeInScreenHandler = (screen) => {
