@@ -14,11 +14,11 @@ import "./Carousel.min.css";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/lib/styles.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
-import portfolioImage from "./images/portfolioImage.svg";
-import sbTelecomWebstore from "./images/sb_telecom_webstore.svg";
-import gameOfFocus from "./images/game_of_focus.svg";
-import oneStopAgro from "./images/OneStopAgro.svg";
-import mentNL from "./images/ment-nl.svg";
+import portfolioImage from "./images/portfolioImage.webp";
+import sbTelecomWebstore from "./images/sb_telecom_webstore.webp";
+import gameOfFocus from "./images/game_of_focus.webp";
+import oneStopAgro from "./images/OneStopAgro.webp";
+import mentNL from "./images/ment-nl.webp";
 
 export default function Testimonial(props) {
 	let fadeInScreenHandler = (screen) => {
