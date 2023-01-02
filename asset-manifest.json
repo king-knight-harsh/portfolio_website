@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.1adf1d18.css",
-    "main.js": "/static/js/main.992334ac.js",
+    "main.js": "/static/js/main.53662c05.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/Harsh_photo.svg": "/static/media/Harsh_photo.760b766d722b7587170f.svg",
-    "static/media/sb_telecom_webstore.svg": "/static/media/sb_telecom_webstore.acbbcf86320f681fef8c7b6ff66241c7.svg",
+    "static/media/sb_telecom_webstore.webp": "/static/media/sb_telecom_webstore.cd2728634f22d444b43c.webp",
     "static/media/photoHarsh.svg": "/static/media/photoHarsh.503f5534d26dd44b8048.svg",
-    "static/media/ment-nl.svg": "/static/media/ment-nl.7a3ec693612fdc618cd08e35b3b1fed8.svg",
+    "static/media/ment-nl.webp": "/static/media/ment-nl.cdb5ba932c153769bc63.webp",
     "static/media/portfolioImage.svg": "/static/media/portfolioImage.f90d52bd1909706d7c10f4071008de43.svg",
     "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
@@ -26,11 +26,11 @@
     "static/media/education.svg": "/static/media/education.9ed8b53812c3beb648e1.svg",
     "static/media/work-history.svg": "/static/media/work-history.f8127a79c81e4defe8bc.svg",
     "main.1adf1d18.css.map": "/static/css/main.1adf1d18.css.map",
-    "main.992334ac.js.map": "/static/js/main.992334ac.js.map",
+    "main.53662c05.js.map": "/static/js/main.53662c05.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1adf1d18.css",
-    "static/js/main.992334ac.js"
+    "static/js/main.53662c05.js"
   ]
 }
