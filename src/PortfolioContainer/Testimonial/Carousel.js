@@ -22,6 +22,7 @@ import mentNL from "./images/ment-nl.svg";
 
 export default function Testimonial(props) {
 	let fadeInScreenHandler = (screen) => {
+		console.log(props)
 		if (screen.fadeInScreen !== props.id) return;
 		Animations.animations.fadeInScreen(props.id);
 	};
@@ -103,7 +104,7 @@ export default function Testimonial(props) {
 							</MDBCard>{" "}
 						</div>{" "}
 					</div>
-					<div class="item">
+					<div className="item">
 						<div className="card">
 							<MDBCard
 								style={{
@@ -197,7 +198,7 @@ export default function Testimonial(props) {
 							</MDBCard>{" "}
 						</div>{" "}
 					</div>
-					<div class="item">
+					<div className="item">
 						<div className="card">
 							<MDBCard
 								style={{
@@ -244,7 +245,7 @@ export default function Testimonial(props) {
 							</MDBCard>{" "}
 						</div>{" "}
 					</div>
-					<div class="item">
+					<div className="item">
 						<div className="card">
 							<MDBCard
 								style={{
