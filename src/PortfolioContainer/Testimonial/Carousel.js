@@ -138,7 +138,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="https://github.com/king-knight-harsh/OneStopAgro"
+										href="https://github.com/king-knight-harsh/OneStopAgro/tree/kd-ai/FlaskAI"
 									>
 										{" "}
 										View{" "}
@@ -189,7 +189,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="http://sharmaharsh.me/ment-nl/"
+										href="https://mentnl.hsharma.social/"
 									>
 										{" "}
 										View{" "}
@@ -236,7 +236,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="https://github.com/king-knight-harsh/sbtelecom-webstore"
+										href="https://github.com/king-knight-harsh/sbtelecom-webstore/tree/main/iteration_3"
 									>
 										{" "}
 										View{" "}
@@ -278,7 +278,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="https://github.com/king-knight-harsh/comp2005-fall21-group4"
+										href="https://github.com/king-knight-harsh/comp2005-fall21-group4/tree/main/Group%204%20Iteration%204"
 									>
 										{" "}
 										View{" "}
