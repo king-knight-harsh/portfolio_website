@@ -15,10 +15,10 @@ import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/lib/styles.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 import portfolioImage from "./images/portfolioImage.svg";
-import sbTelecomWebstore from "./images/sb_telecom_webstore.svg";
+import sbTelecomWebstore from "./images/sb_telecom_webstore.webp";
 import gameOfFocus from "./images/game_of_focus.svg";
 import oneStopAgro from "./images/OneStopAgro.svg";
-import mentNL from "./images/ment-nl.svg";
+import mentNL from "./images/ment-nl.webp";
 
 export default function Testimonial(props) {
 	let fadeInScreenHandler = (screen) => {
@@ -138,7 +138,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="https://github.com/king-knight-harsh/OneStopAgro"
+										href="https://devpost.com/software/one-stop-agro?ref_content=user-portfolio&ref_feature=in_progress%5C"
 									>
 										{" "}
 										View{" "}
@@ -189,7 +189,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="http://sharmaharsh.me/ment-nl/"
+										href="https://mentnl.hsharma.social/"
 									>
 										{" "}
 										View{" "}
@@ -236,7 +236,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="https://github.com/king-knight-harsh/sbtelecom-webstore"
+										href="https://github.com/king-knight-harsh/sbtelecom-webstore/tree/main/iteration_3"
 									>
 										{" "}
 										View{" "}
@@ -278,7 +278,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="https://github.com/king-knight-harsh/comp2005-fall21-group4"
+										href="https://github.com/king-knight-harsh/comp2005-fall21-group4/tree/main/Group%204%20Iteration%204"
 									>
 										{" "}
 										View{" "}
