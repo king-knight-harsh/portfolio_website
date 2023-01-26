@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1adf1d18.css",
-    "main.js": "/static/js/main.854ef09b.js",
+    "main.js": "/static/js/main.461d913c.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/Harsh_photo.svg": "/static/media/Harsh_photo.760b766d722b7587170f.svg",
     "static/media/sb_telecom_webstore.webp": "/static/media/sb_telecom_webstore.cd2728634f22d444b43c.webp",
@@ -26,11 +26,11 @@
     "static/media/education.svg": "/static/media/education.9ed8b53812c3beb648e1.svg",
     "static/media/work-history.svg": "/static/media/work-history.f8127a79c81e4defe8bc.svg",
     "main.1adf1d18.css.map": "/static/css/main.1adf1d18.css.map",
-    "main.854ef09b.js.map": "/static/js/main.854ef09b.js.map",
+    "main.461d913c.js.map": "/static/js/main.461d913c.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1adf1d18.css",
-    "static/js/main.854ef09b.js"
+    "static/js/main.461d913c.js"
   ]
 }
