@@ -19,10 +19,11 @@ import sbTelecomWebstore from "./images/sb_telecom_webstore.webp";
 import gameOfFocus from "./images/game_of_focus.svg";
 import oneStopAgro from "./images/OneStopAgro.svg";
 import mentNL from "./images/ment-nl.webp";
+import co2by from "./images/co2by.png";
 
 export default function Testimonial(props) {
 	let fadeInScreenHandler = (screen) => {
-		console.log(props)
+		console.log(props);
 		if (screen.fadeInScreen !== props.id) return;
 		Animations.animations.fadeInScreen(props.id);
 	};
@@ -54,6 +55,56 @@ export default function Testimonial(props) {
 			/>
 			<section className="testimonial-section fade-in" id={props.id || ""}>
 				<OwlCarousel options={options}>
+					<div className="item">
+						<div className="card">
+							<MDBCard
+								style={{
+									width: "22rem",
+									height: "32rem",
+								}}
+							>
+								<MDBCardImage
+									style={{
+										width: "22rem",
+										height: "12rem",
+										backgroundSize: "cover",
+									}}
+									src={co2by}
+									position="top"
+									alt="..."
+								/>
+								<MDBCardBody
+									style={{
+										textAlign: "center",
+									}}
+								>
+									<MDBCardTitle
+										style={{
+											fontWeight: "bold",
+											fontSize: "25px",
+											textAlign: "center",
+										}}
+									>
+										{" "}
+										CO2BY{" "}
+									</MDBCardTitle>{" "}
+									<MDBCardText>
+										CO2By is a project developed by a team of five students with
+										diverse backgrounds during the Hackfrost 3.0 hackathon. {" "}
+									</MDBCardText>{" "}
+									<MDBBtn
+										style={{
+											background: "#ff5823",
+										}}
+										href="https://devpost.com/software/co2by"
+									>
+										{" "}
+										View{" "}
+									</MDBBtn>{" "}
+								</MDBCardBody>{" "}
+							</MDBCard>{" "}
+						</div>{" "}
+					</div>
 					<div className="item">
 						<div className="card">
 							<MDBCard
@@ -189,7 +240,7 @@ export default function Testimonial(props) {
 										style={{
 											background: "#ff5823",
 										}}
-										href="https://mentnl.hsharma.social/"
+										href="https://king-knight-harsh.github.io/ment-nl/"
 									>
 										{" "}
 										View{" "}
