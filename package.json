@@ -1,6 +1,6 @@
 {
-  "name": "client",
-  "homepage": "https://hsharma.social/",
+  "name": "portfolio_website",
+  "homepage": "https://king-knight-harsh.github.io/portfolio_website",
   "version": "0.1.0",
   "engines": {
     "npm": "6.14.13",
