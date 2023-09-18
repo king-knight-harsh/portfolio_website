@@ -1,12 +1,12 @@
+import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
-import Typical from "react-typical";
 import { toast } from "react-toastify";
+import Typical from "react-typical";
+import Footer from "../../PortfolioContainer/Footer/Footer";
+import Animations from "../../utilities/Animations";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
-import Animations from "../../utilities/Animations";
-import Footer from "../../PortfolioContainer/Footer/Footer";
 import "./ContactMe.min.css";
-import emailjs from "@emailjs/browser";
 
 export const ContactMe = (props) => {
 	let fadeInScreenHandler = (screen) => {
@@ -46,17 +46,17 @@ export const ContactMe = (props) => {
 				)
 				.then(
 					(result) => {
-            console.log(result)
+						console.log(result);
 						setBanner("Thank You For Contacting Harsh Sharma");
 						toast.success("Thank You For Contacting Harsh Sharma");
 						setBool(false);
-            // Clearing up all the fields
+						// Clearing up all the fields
 						setName("");
 						setEmail("");
 						setMessage("");
 					},
 					(error) => {
-            console.log(error.message)
+						console.log(error.message);
 						toast.error("Unable to send the email");
 					}
 				);
@@ -71,9 +71,6 @@ export const ContactMe = (props) => {
 					<h2 className="title">
 						<Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
 					</h2>{" "}
-					<a href="https://www.facebook.com/profile.php?id=100007081242171">
-						<i className="fa fa-facebook-square"></i>
-					</a>
 					<a href="https://www.linkedin.com/in/harsh-sharma-7b26a1196/">
 						<i className="fa fa-linkedin-square "></i>
 					</a>

@@ -1,7 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
-import ScrollService from "../../../utilities/ScrollService";
 import Animations from "../../../utilities/Animations";
+import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.min.css";
 
 export default function Profile(props) {
@@ -10,16 +10,13 @@ export default function Profile(props) {
 		Animations.animations.fadeInScreen(props.id);
 	};
 	ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-	
+
 	return (
 		<div className="profile-container">
 			<div className="profile-parent">
 				<div className="profile-details">
 					<div className="colz">
 						<div className="colz-icon">
-							<a href="https://www.facebook.com/profile.php?id=100007081242171">
-								<i className="fa fa-facebook-square"></i>
-							</a>
 							<a href="https://www.linkedin.com/in/harsh-sharma-7b26a1196/">
 								<i className="fa fa-linkedin-square "></i>
 							</a>
@@ -65,14 +62,10 @@ export default function Profile(props) {
 							className="btn primary-btn"
 							onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
 						>
-							{" "}
-							Hire Me{" "}
+							Hire Me
 						</button>
-						<a
-							href="hsharma_resume.pdf"
-							download="Hsharma_resume"
-						>
-							<button className="btn highlighted-btn"> Get Resume</button>
+						<a href="hsharma_resume.pdf" download="Hsharma_resume">
+							<button className="btn highlighted-btn"> Get Resume </button>
 						</a>
 					</div>
 				</div>
