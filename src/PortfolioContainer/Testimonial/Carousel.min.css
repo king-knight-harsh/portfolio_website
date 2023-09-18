@@ -1,1 +1,27 @@
-.owl-carousel{position:relative}.owl-nav{position:absolute;z-index:1;top:45%;width:100%}.owl-next{position:absolute;right:0}.owl-prev{position:absolute;left:0;visibility:hidden}.owl-prev::after{visibility:visible;content:"<";padding:2px 7px;color:#fff;background:#000;position:absolute;left:0;top:0}.owl-dots{position:absolute;z-index:1;bottom:-10%;left:46%}.owl-nav .owl-next{position:absolute;right:0;color:#000;visibility:hidden}.owl-nav .owl-next::after{visibility:visible;content:">";padding:2px 7px;color:#fff;background:#000;position:absolute;right:0;top:0}.card{display:flex;align-items:center;height:100%;border-radius:50px}.card-body{border-top-right-radius:50px 20px}@media only screen and (max-width:898px){.owl-dots{left:38%}}
+
+
+.testimonial-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    @media screen and (max-width:1068px) {
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    @media screen and (max-width:768px) {
+        margin-left: 25%;
+        margin-right: 25%;
+        
+    }
+}
+.card {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.card-body {
+	border-top-right-radius: 50px 20px;
+}
